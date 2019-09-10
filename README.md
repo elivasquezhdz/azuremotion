@@ -10,6 +10,8 @@ Clone or download repo:
 
 Extract the images zip
 
+Change the api key in line 63
+
 Run: azuremotion.py
 
 What it does:
