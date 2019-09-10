@@ -61,7 +61,7 @@ class CamApp(App):
         self.frame_count += 1
         ret, frame = self.capture.read()
 
-        subscription_key = "ff055ced930e4757a2ab3154c32ce603"
+        subscription_key = ""
         face_api_url = 'https://westcentralus.api.cognitive.microsoft.com/face/v1.0/detect'
         cv2.imwrite("frame.jpg",frame)
         data = open('frame.jpg', 'rb')
