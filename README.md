@@ -8,6 +8,8 @@ Instructions to run:
 
 Clone or download repo:
 
+Install dependencies (kivy, opencv)
+
 Extract the images zip
 
 Change the api key in line 63
