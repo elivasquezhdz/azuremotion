@@ -41,7 +41,6 @@ class CamApp(App):
         with open("emotions.log","a") as log:
             log.write(message + "\n")
     def build(self):
-        self.graph = self.set_graph()
         self.frame_count = 0
         self.images = self.get_images()
         self.img1=Image()
